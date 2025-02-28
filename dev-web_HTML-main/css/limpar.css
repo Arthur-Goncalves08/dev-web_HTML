@@ -1,0 +1,37 @@
+header{
+    background-color: burlywood;      /* Cor de fundo escura */
+    color: darkgreen;                /* Cor do texto branca */
+    font-family: Arial; /* Fonte sem serifa */
+    font-size: 18px;             /* Tamanho da fonte */
+    padding: 20px 10px;          /* Preenchimento interno */
+    text-align: center;          /* Alinha o texto no centro */
+    display: flex;               /* Usando Flexbox para layout */
+    justify-content: space-between; /* Distribui os itens */
+    align-items: left;         /* Alinha os itens verticalmente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0); /* Sombra suave */
+    position: relative;             /* Fixa o header no topo */
+    top: 0;                      /* Fixa no topo da página */
+    left: 0;                     /* Fixa à esquerda */
+    width: 100%;                 /* Faz o header ocupar toda a largura */
+    z-index: 100;                /* Garante que o header fique acima de outros elementos */
+}
+.livros{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: burlywood;
+    color: rgb(2, 54, 2);
+
+
+}
+.tipos{
+    background-color: burlywood;
+    color: rgb(2, 54, 2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.escritor{
+    padding: 20px,left;
+}
+
+footer{
+    font-size: 14px;
+}
